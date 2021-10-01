@@ -1,16 +1,22 @@
+<!DOCTYPE html>
 <html>
     <head>
+        <title>Simple Interest Calculator</title>
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <div class="maindiv">
         <h1>Simple Interest Calculator</h1>
 
         Amount <input type="number"  id="principal">  <br/>
-        Rate <input type="number"  id="rate">  <br/>
-        No. of Years <input type="number"  id="years">  <br/>
+        Rate <input type="range"  id="rate" min="minval" max="maxval" value="default_val" onchange="updateRate()">  <br/>
+        <span id="rate_val">10.25%</span>
+        No. of Years <select><option value="1">1</option></select> <br/>
         Interest : <span id="result"></span><br>
 
-        <button onclick="compute()">Compute</button>
+        <button onclick="compute()">Compute Interest</button>
+        <span id="result"><footer>&#169; This Calculator belong to --David Mettman--</footer></span>
+        </div>
     </body>
 </html>
