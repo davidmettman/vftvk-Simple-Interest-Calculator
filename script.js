@@ -10,6 +10,7 @@ function compute()
         document.getElementById("deposit").innerText=principal;
         document.getElementById("irate").innerText=rate;
         document.getElementById("total").innerText=total;
+        document.getElementById("time").innerText=year;
 }
         
 function updateRate() {
