@@ -10,16 +10,16 @@
         <h1>Simple Interest Calculator</h1>
 
         Amount <input type="number"  id="principal">  <br/>
-        Rate <input type="range"  id="rate" min="1" max="20" step="0,25" value="10,25%" onchange="updateRate()">
+        Rate <input type="range"  id="rate" min="1" max="20" step="0,25" value="10.25%" onchange="updateRate()">
         <span id="rate_val"></span>% <br/>
         No. of Years <select><option value="1">1</option></select> <br/>
         Interest : <span id="result"></span><br>
 
         <button onclick="compute()">Compute Interest</button> <br/>
         <p> <!--Presentation of Interest Calculations Data-->
-        If you deposit <span value="principal"></span><br/>
-        at an interest rate of <span value="rate_val"></span><br/>
-        You will receive an amount of <span value="total"></span><br/>
+        If you deposit <span id="deposit"></span><br/>
+        at an interest rate of <span id="irate"></span><br/>
+        You will receive an amount of <span id="total"></span><br/>
         in the year <br/>
         </p>
         <span id="result"><footer>&#169; This Calculator belongs to David Mettman</footer></span>
