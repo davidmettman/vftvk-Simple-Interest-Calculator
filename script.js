@@ -11,6 +11,7 @@ function compute()
         document.getElementById("irate").innerText=rate;
         document.getElementById("total").innerText=total;
         document.getElementById("time").innerText=year;
+        document.getElementById("result").innerText=interest;
 }
         
 function updateRate() {
