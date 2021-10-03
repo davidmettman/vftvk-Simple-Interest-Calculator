@@ -7,7 +7,10 @@ function compute()
     var year = new Date().getFullYear()+parseInt(years);
     var total = interest + principal;
     
-       
+     document.getElementById("deposit").innerText=principal;
+     document.getElementById("total").innerText=total;
+     document.getElementById("time").innerText=year;
+     document.getElementById("result").innerText=interest;   
 }
         
 function updateRate() {
