@@ -8,7 +8,6 @@ function compute()
     var total = interest + principal;
     
         document.getElementById("deposit").innerText=principal;
-        document.getElementById("irate").innerText=rate;
         document.getElementById("total").innerText=total;
         document.getElementById("time").innerText=year;
         document.getElementById("result").innerText=interest;
@@ -17,5 +16,6 @@ function compute()
 function updateRate() {
         var rateval = document.getElementById("rate").value;
         document.getElementById("rate_val").innerText=rateval;
+        document.getElementById("irate").innerText=rateval;
 
 }
