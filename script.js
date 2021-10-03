@@ -4,11 +4,17 @@ function compute() {
     var years = document.getElementById("years").value;
     var interest = principal * years * rate / 100;
     var year = new Date().getFullYear()+parseInt(years);
+    var total = interest + principal;
+    
+        document.getElementById("deposit").innerText=principal;
+        document.getElementById("irate").innerText=rate;
+        document.getElementById("total").innerText=total;
+        document.getElementById("time").innerText=year;
+        document.getElementById("result").innerText=interest;
 }
         
 function updateRate() {
         var rateval = document.getElementById("rate").value;
         document.getElementById("rate_val").innerText=rateval;
-
 
 }
