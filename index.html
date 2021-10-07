@@ -3,14 +3,14 @@
     <head>
         <title>Simple Interest Calculator</title>
     <link rel="stylesheet" href="style.css">
-        <script src="https://github.com/davidmettman/vftvk-Simple-Interest-Calculator/blob/master/script.js"/>
+        <script src="script.js"></script>
     </head>
     <body>
         <div class="maindiv">
         <h1>Simple Interest Calculator</h1>
 
         Amount <input type="number" id="principal"/>  <br/>
-        Rate <input type="range" id="rate" min="1" max="20" step="25" value="10.25" onchange="updateRate()"/>
+        Rate <input type="range" id="rate" min="1" max="20" step="25" value="10.25" onchange="updateRate()">
         <span id="rate_val"></span>% <br/>
         No. of Years  <select>
                         <option value="1">1</option>
