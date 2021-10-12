@@ -1,3 +1,6 @@
+    
+function compute() {
+    
     var principal = document.getElementById("principal").value;
     var rate = document.getElementById("rate").value;
     var years = document.getElementById("years").value;
@@ -5,7 +8,6 @@
     var year = new Date().getFullYear()+parseInt(years);
     var total = interest + principal;
 
-function compute() {
     
         document.getElementById("deposit").innerText=principal;
         document.getElementById("total").innerText=total;
