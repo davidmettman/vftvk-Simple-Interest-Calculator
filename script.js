@@ -13,7 +13,7 @@ function compute() {
         document.getElementById("result").innerText=interest;
 }
         
-function updateRate(rateval) 
+function updateRate() 
 {
     document.getElementById("rate_val").innerText=rateval;
 }
