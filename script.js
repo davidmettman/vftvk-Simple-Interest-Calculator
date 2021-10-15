@@ -2,7 +2,7 @@ principal = document.getElementById("principal").value;
 years = document.getElementById("years").value;
 rateval = document.getElementById("rate").value;
 year = new Date().getFullYear()+parseInt(years);
-interest = principal * (rateval/100) * years;
+interest = principal * rateval / 100 * years;
 total = interest + principal;
 
 
