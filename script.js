@@ -1,7 +1,8 @@
 principal = document.getElementById("principal").value;
 years = document.getElementById("years").value;
 rateval = document.getElementById("rate").value;
-interest = principal * years * rateval /100;
+rate = rateval
+interest = principal * years * (rate /100);
 year = new Date().getFullYear()+parseInt(years);
 total = interest + principal;
 
