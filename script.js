@@ -1,8 +1,10 @@
 principal = document.getElementById("principal").value;
-interest = principal * years * rate /100;
+years = document.getElementById("years").value;
+rateval = document.getElementById("rate").value;
+interest = principal * years * rateval /100;
 year = new Date().getFullYear()+parseInt(years);
 total = interest + principal;
-rateval = document.getElementById("rate").value;
+
 
 function compute() {
         document.getElementById("deposit").innerText=principal;
