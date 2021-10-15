@@ -4,8 +4,4 @@ function compute() {
         document.getElementById("deposit").innerText=principal;
       
 }
-        
-function updateRate() 
-{
-
-}
+       
