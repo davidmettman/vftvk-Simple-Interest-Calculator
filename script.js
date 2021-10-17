@@ -1,4 +1,4 @@
-principal = Number(document.getElementById("principal").value);
+principal = parseInt(document.getElementById("principal").value);
 
 function compute() {
         document.getElementById("deposit").innerText = principal;
