@@ -1,7 +1,7 @@
 principal = document.getElementById("principal").value;
 
 function compute() {
-        principal = document.getElementById("deposit").innerText;
+        document.getElementById("deposit").innerText = principal;
       
 }
        
