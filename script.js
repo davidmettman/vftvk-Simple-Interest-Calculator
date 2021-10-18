@@ -9,11 +9,9 @@ function compute()
         
         //Calculating interest and total (principal + interest)
         interest = principal * rateval / 100 * years;
-        total = interest + principal;
         
         //Setting the label values
         document.getElementById("deposit").innerText = principal;
-        document.getElementById("total").innerText=total;
         document.getElementById("time").innerText=year;
         document.getElementById("result").innerText=interest;
         document.getElementById("irate").innerText=rateval;
