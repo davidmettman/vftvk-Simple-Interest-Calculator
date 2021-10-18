@@ -16,6 +16,6 @@ function compute()
 function updateRate()
 {
     rateval2 = +document.getElementById("rate").value;
-    document.getElementById("rate_val").innerText=rateval;
+    document.getElementById("rate_val").innerText=rateval2;
 }
        
