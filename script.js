@@ -10,10 +10,12 @@ function compute()
         document.getElementById("total").innerText=total;
         document.getElementById("time").innerText=year;
         document.getElementById("result").innerText=interest;
+        document.getElementById("irate").innerText=rateval;
 }
 
 function updateRate()
 {
+    rateval2 = +document.getElementById("rate").value;
     document.getElementById("rate_val").innerText=rateval;
 }
        
