@@ -7,7 +7,7 @@ total = interest + principal;
 
 function compute()
 {    
-        principal = parseInt(document.getElementById("principal").value);
+        principal = +document.getElementById("principal").value;
         document.getElementById("deposit").innerText = principal;
         document.getElementById("total").innerText=total;
         document.getElementById("time").innerText=year;
