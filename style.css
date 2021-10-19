@@ -1,8 +1,8 @@
 body {background-color:black; font-family:arial;color:white;}
 h1{color:grey;font-family:verdana}
 
-.coretext {indent:50px;}
+.coretext {left-indent:50px;}
 
-.maindiv {background-color: white; color:black; width:450px; padding:20px; border-radius:25px; h-align:center;}
+.maindiv {background-color: white; color:black; width:500px; padding:20px; border-radius:25px; h-align:center;}
 
 .output {background-color: yellow;}
