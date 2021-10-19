@@ -6,3 +6,5 @@ h1{color:grey;font-family:verdana}
 .maindiv {background-color: white; color:black; width:490px; padding:20px; border-radius:25px;}
 
 .output {background-color: yellow;}
+
+.outputsection {visibility: hidden;}
