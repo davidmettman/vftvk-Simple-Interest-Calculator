@@ -17,7 +17,7 @@ function compute()
                 document.getElementById("principal").focus();
         }
         else {
-                document.getElementById("deposit").innerText = "If you deposit " + principal + ",";
+                document.getElementById("deposit").innerText = principal;
                 document.getElementById("time").innerText=year;
                 document.getElementById("result").innerText=interest;
                 document.getElementById("irate").innerText=rateval;
