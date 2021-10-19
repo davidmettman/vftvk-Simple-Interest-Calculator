@@ -11,10 +11,17 @@ function compute()
         interest = principal * rateval / 100 * years;
         
         //Setting the label values
-        document.getElementById("deposit").innerText = principal;
-        document.getElementById("time").innerText=year;
-        document.getElementById("result").innerText=interest;
-        document.getElementById("irate").innerText=rateval;
+        if()
+        {
+                alert("Enter a positive number");
+                document.getElementById("principal").focus();
+        }
+        else {
+                document.getElementById("deposit").innerText = principal;
+                document.getElementById("time").innerText=year;
+                document.getElementById("result").innerText=interest;
+                document.getElementById("irate").innerText=rateval;
+        }
 }
 
 //Function to update interest rate
