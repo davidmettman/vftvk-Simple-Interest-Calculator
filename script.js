@@ -17,7 +17,7 @@ function compute()
                 document.getElementById("principal").focus();
         }
         else {
-                document.getElementById("output_section").style.visibility = visible;
+                document.getElementById("output_section").style.visibility = "visible";
                 document.getElementById("deposit").innerText = principal;
                 document.getElementById("time").innerText=year;
                 document.getElementById("result").innerText=interest;
