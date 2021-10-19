@@ -11,7 +11,7 @@ function compute()
         interest = principal * rateval / 100 * years;
         
         //Setting the label values
-        if()
+        if(principal < 1)
         {
                 alert("Enter a positive number");
                 document.getElementById("principal").focus();
