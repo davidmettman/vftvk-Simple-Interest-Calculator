@@ -1,4 +1,4 @@
-body {background-color:black; font-family:arial;color:white; margin: 0 auto;}
+body {background-color:black; font-family:arial;color:white;  position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
 
 .coretext {padding: 50px;}
 
